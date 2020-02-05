@@ -1,4 +1,4 @@
-export default class Paddle {
+export default class Paddle2 {
     constructor(gameHeight, gameWidth) {
         this.gameHeight = gameHeight;
         this.gameWidth = gameWidth;
@@ -10,7 +10,7 @@ export default class Paddle {
 
         this.position = {
             x: this.gameWidth / 2 - this.paddleWidth / 2,
-            y: this.gameHeight - this.paddleHeight - 10
+            y: 10
         }
     }
 
